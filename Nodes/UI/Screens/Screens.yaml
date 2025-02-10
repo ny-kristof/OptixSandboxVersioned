@@ -97,3 +97,21 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 220.0
+  - Name: Label3
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Itt találjátok hozzá a Help oldalt: https://www.rockwellautomation.com/en-us/docs/factorytalk-optix/1-4-3/contents-ditamap.html"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 3.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 70.0
